@@ -43,7 +43,7 @@
 ### 1. Клонирование и установка зависимостей
 
 ```bash
-git clone https://github.com/your-username/chatgpt-stream-app.git
+git clone git@github.com:EmranP/ChatGPT-Stream-App.git с SSH
 cd chatgpt-stream-app
 
 # Установка зависимостей для сервера
