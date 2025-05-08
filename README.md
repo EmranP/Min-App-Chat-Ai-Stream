@@ -44,6 +44,7 @@
 
 ```bash
 git clone git@github.com:EmranP/ChatGPT-Stream-App.git с SSH
+git clone https://github.com/EmranP/ChatGPT-Stream-App.git с HTTPS
 cd chatgpt-stream-app
 
 # Установка зависимостей для сервера
