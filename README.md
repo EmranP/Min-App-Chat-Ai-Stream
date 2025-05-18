@@ -98,7 +98,7 @@ bun run dev
 ## 🧱 Технологии
 
 * **Frontend:** React, Vite, TailwindCSS, Framer Motion
-* **Backend:** Express, Node.js, Server-Sent Events (SSE), dotenv
+* **Backend:** Express, Node.js, Server-Sent Events (SSE)
 * **API:** OpenAI Chat Completions (gpt-3.5-turbo)
 
 ---
