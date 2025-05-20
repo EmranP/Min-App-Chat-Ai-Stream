@@ -15,7 +15,8 @@ export const appMiddleware = (
 	app.use(
 		cors({
 			credentials: true,
-			origin: process.env.CLIENT_URL,
+			// origin: process.env.CLIENT_URL,
+			origin: '*',
 		})
 	)
 
@@ -26,5 +27,5 @@ export const appMiddleware = (
 	)
 
 	// 💪 Производительности
-	app.use(compression())
+	app.use(compression({ level: 0 }))
 }
