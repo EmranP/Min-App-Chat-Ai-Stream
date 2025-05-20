@@ -1,5 +1,11 @@
 @import 'tailwindcss';
 
+@theme {
+	--color-textSecondary: #5f76a4;
+	--color-btnColor: #1c4c9a;
+	--color-elementSecondary: #123b7d;
+}
+
 :root {
 	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -7,7 +13,7 @@
 
 	color-scheme: light dark;
 	color: #fff;
-	background-color: #242424;
+	background-color: #072e6a;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -17,6 +23,7 @@
 
 body {
 	margin: 0;
+	padding: 30px 0;
 	min-width: 320px;
 	min-height: 100vh;
 }
